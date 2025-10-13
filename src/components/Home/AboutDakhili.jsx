@@ -29,32 +29,32 @@ function AboutDakhili({ onToggle }) {
 
       {/* Konten detail dengan animasi internal */}
       <motion.div
-        className="relative px-6 pb-10 pt-20"
+        className="relative px-6 pb-10 pt-14"
         variants={contentContainerVariant}
         initial="hidden"
         animate="visible"
       >
         <div className="py-6 text-center">
-          <motion.p variants={contentItemVariant} className="font-semibold text-[13px]">
+          <motion.p variants={contentItemVariant} className="font-semibold text-[16px]">
             Menurut HIMPUH pada website resminya,
           </motion.p>
-          <div className="space-y-6 text-xs leading-relaxed mt-4">
-            <motion.p variants={contentItemVariant} className="font-light text-[10px]">
+          <div className="space-y-3 leading-relaxed mt-4">
+            <motion.p variants={contentItemVariant} className="font-light text-[12px]">
               Ada <strong className="font-semibold">3 jenis</strong> haji tanpa antri yang sah dan resmi sesuai aturan Pemerintah Arab Saudi, masing-masing memiliki ketentuan.
             </motion.p>
             <motion.div variants={contentItemVariant}>
-              <h3 className="font-semibold text-[13px] mb-1">Haji Mujamalah</h3>
-              <p className="font-light text-[10px]">Program haji yang menggunakan visa undangan langsung dari pemerintah Arab Saudi...</p>
+              <h3 className="font-semibold text-[16px] mb-1">Haji Mujamalah</h3>
+              <p className="font-light text-[12px]">Program haji yang menggunakan visa undangan langsung dari pemerintah Arab Saudi...</p>
             </motion.div>
             <motion.hr variants={contentItemVariant} className="mx-24 border-white/20" />
             <motion.div variants={contentItemVariant}>
-              <h3 className="font-semibold text-[13px] mb-1">Haji Furoda</h3>
-              <p className="font-light text-[10px]">Haji Furoda adalah program haji yang menggunakan visa undangan langsung...</p>
+              <h3 className="font-semibold text-[16px] mb-1">Haji Furoda</h3>
+              <p className="font-light text-[12px]">Haji Furoda adalah program haji yang menggunakan visa undangan langsung...</p>
             </motion.div>
             <motion.hr variants={contentItemVariant} className="mx-24 border-white/20" />
             <motion.div variants={contentItemVariant}>
-              <h3 className="font-semibold text-[13px] mb-1">Haji Dakhili</h3>
-              <p className="font-light text-[10px]">Haji dakhili ini adalah jalur haji buat mereka yang sudah terdaftar sebagai penduduk Saudi...</p>
+              <h3 className="font-semibold text-[16px] mb-1">Haji Dakhili</h3>
+              <p className="font-light text-[12px]">Haji dakhili ini adalah jalur haji buat mereka yang sudah terdaftar sebagai penduduk Saudi...</p>
             </motion.div>
             <motion.p variants={contentItemVariant} className="text-[8px] text-center opacity-60 pt-4">
               source: www.himpuh.or.id

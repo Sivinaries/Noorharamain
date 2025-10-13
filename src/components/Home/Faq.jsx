@@ -110,7 +110,7 @@ function Faq() {
               <br />
               Questions.
             </h1>
-            <p className="text-white/80 mt-2 text-[10px] leading-tight">
+            <p className="text-white/80 mt-2 text-[12px] leading-tight">
               Menjawab beberapa pertanyaan
               <br />
               yang kerap muncul.
@@ -134,7 +134,7 @@ function Faq() {
                 onClick={() => handleToggle(index)}
                 className="w-full flex justify-between items-center px-3 py-2 text-left"
               >
-                <span className="font-semibold text-[13px] text-black pr-3">
+                <span className="font-semibold text-[16px] text-black pr-3">
                   {faq.question}
                 </span>
                 <div
@@ -154,7 +154,7 @@ function Faq() {
                   openIndex === index ? "max-h-screen" : "max-h-0"
                 }`}
               >
-                <p className="px-3 py-2 pt-0 text-black/90 text-[10px]">{faq.answer}</p>
+                <p className="px-3 py-2 pt-0 text-black/90 text-[12px]">{faq.answer}</p>
               </div>
             </div>
           ))}

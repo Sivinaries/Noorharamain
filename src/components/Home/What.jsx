@@ -16,7 +16,7 @@ function What({ onToggle }) {
       </motion.button>
       <div className="w-full mx-auto text-center pt-14 text-[#003454]">
         <div className="space-y-6">
-          <p className="text-[10px]">
+          <p className="text-[12px]">
             Haji melalui sistem resmi Nusuk atau yang lebih umum dikenal sebagai
             Haji Dakhili atau Haji VIP. Suatu program haji yang hanya dapat
             diakses bagi masyarakat yang telah memiliki{" "}
@@ -26,7 +26,7 @@ function What({ onToggle }) {
             <strong className="font-semibold">resmi</strong> oleh otoritas Arab
             Saudi.
           </p>
-          <p className="text-[10px] leading-relaxed ">
+          <p className="text-[12px] leading-relaxed ">
             Untuk dapat melaksanakan Ibadah Haji melalui sistem resmi Nusuk,
             peserta tidak memerlukan Visa Haji, melainkan perlu adanya{" "}
             <strong className="font-semibold">Tasreh Haji</strong> yang hanya

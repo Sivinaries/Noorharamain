@@ -53,7 +53,7 @@ function Resiko() {
           <motion.div
             key="resiko-view"
             exit={{ opacity: 0, transition: { duration: 0.3 } }}
-            className="bg-white rounded-2xl"
+            className="bg-white"
           >
             <div className="p-6 relative">
               {!isInitialAnimationDone ? (
@@ -171,7 +171,7 @@ function Resiko() {
           // ADEGAN 2: RISK
           <motion.div
             key="risk-view"
-            className="bg-gray-200 p-4 rounded-3xl" // Wrapper untuk meniru layout asli Risk.jsx
+            className="" // Wrapper untuk meniru layout asli Risk.jsx
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

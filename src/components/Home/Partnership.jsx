@@ -45,16 +45,16 @@ function Partnership() {
   return (
     <div className="relative w-full md:max-w-sm mx-auto bg-gray-50 font-sans py-2">
       <div className="bg-white px-4 py-6 flex gap-4">
-        <button className="flex-1 py-1 bg-gradient-to-r from-[#D2C5B7FF] to-[#A79582FF] text-white text-sm font-semibold rounded-full">
+        <button className="flex-1 py-1 bg-gradient-to-r from-[#D2C5B7FF] to-[#A79582FF] text-white text-[14px] font-semibold rounded-full">
           Gabung Sekarang
         </button>
-        <button className="flex-1 py-1 bg-[#E5E5E5FF] text-sm rounded-full">
+        <button className="flex-1 py-1 bg-[#E5E5E5FF] text-[14px] rounded-full">
           Pelajari Selengkapnya
         </button>
       </div>
 
       <div className="px-4 text-center">
-        <p className="max-w-sm mx-auto leading-tight font-medium text-[13px]">
+        <p className="max-w-sm mx-auto leading-tight font-medium text-[16px]">
           Noor Haramain membuka kesempatan kemitraan tanpa persyaratan khusus
           bagi individu atau kelompok yang berminat untuk berkontribusi dalam
           upaya mensyiarkan rukun Islam yang ke-5.
@@ -62,7 +62,7 @@ function Partnership() {
       </div>
 
       <div className="px-4 py-3 bg-white">
-        <h2 className="text-[13px] font-normal text-center">
+        <h2 className="text-[16px] font-normal text-center">
           Adapun <strong>keuntungan</strong> yang ditawarkan meliputi:
         </h2>
         <div className="mt-4 flex flex-col items-center gap-4">
@@ -79,7 +79,7 @@ function Partnership() {
               }
             `}
             >
-              <h3 className="font-semibold text-[10px]">
+              <h3 className="font-semibold text-[14px]">
                 {index === 1 ? (
                   <>
                     <span className="text-white">Fasilitas</span>{" "}
@@ -90,7 +90,7 @@ function Partnership() {
                 )}
               </h3>
               <p
-                className={`text-[10px] mt-1 ${
+                className={`text-[12px] mt-1 ${
                   index === 1 ? "text-white/90 font-light" : "text-black"
                 }`}
               >
@@ -119,7 +119,7 @@ function Partnership() {
 
       {/* --- Timeline --- */}
       <div className="py-3 px-4">
-        <h2 className="text-[13px] font-normal text-center">
+        <h2 className="text-[16px] font-normal text-center">
           Bagaimana <strong>Alurnya?</strong>
         </h2>
         <div className="mt-4 flex flex-col items-center gap-4">
@@ -128,10 +128,10 @@ function Partnership() {
               key={index}
               className={`rounded-full px-3 py-2 w-full text-center ${step.bgColor}`}
             >
-              <h3 className={`font-semibold text-[10px] ${step.textColor}`}>
+              <h3 className={`font-semibold text-[14px] ${step.textColor}`}>
                 {step.title}
               </h3>
-              <p className={`text-[8px] ${step.textColor} mt-1`}>
+              <p className={`text-[12px] ${step.textColor} mt-1`}>
                 {index === 2 ? (
                   <>
                     Bapak/Ibu berhak menerima{" "}
@@ -152,7 +152,7 @@ function Partnership() {
 
       {/* --- Closing --- */}
       <div className="py-3 px-4 text-center bg-white">
-        <p className="max-w-sm mx-auto leading-tight text-[11px] font-medium">
+        <p className="max-w-sm mx-auto leading-tight text-[16px] font-medium">
           Kesempatan ini terbuka luas bagi siapa saja yang berminat untuk
           bergabung dan membantu melayani calon tamu-tamu Allah untuk dapat
           menyempurnakan rukun Islam yang ke-5.

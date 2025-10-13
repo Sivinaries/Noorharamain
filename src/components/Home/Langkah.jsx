@@ -99,7 +99,7 @@ function Langkah() {
             // ADEGAN 2: STEP
             <motion.div
               key="step-view"
-              className="bg-gray-200 p-4 rounded-3xl" // Wrapper untuk meniru layout asli Step.jsx
+              className="" // Wrapper untuk meniru layout asli Step.jsx
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}

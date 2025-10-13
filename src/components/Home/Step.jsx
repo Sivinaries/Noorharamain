@@ -65,7 +65,7 @@ function Step({ onToggle }) {
       </motion.button>
 
       <div className="flex flex-col items-center text-center py-8">
-        <p className="text-white mb-10 text-[13px]">
+        <p className="text-white mb-10 text-[16px]">
           Untuk mengakses Haji Dakhili, terdapat beberapa alur yang wajib
           dilalui oleh seluruh calon jamaah
         </p>
@@ -86,10 +86,10 @@ function Step({ onToggle }) {
                 alt={item.title}
                 className="h-24 object-contain mb-2"
               />
-              <h3 className="text-[13px] font-semibold px-4 text-white">
+              <h3 className="text-[16px] font-semibold px-4 text-white">
                 {item.title}
               </h3>
-              <p className="text-[10px] text-white/80 mt-2 px-2">
+              <p className="text-[12px] text-white/80 mt-2 px-2">
                 {item.description}
               </p>
             </motion.div>

@@ -40,7 +40,7 @@ const listItemVariant = {
 function Risk({ onToggle }) {
   // Seluruh JSX dan layout asli dari Risk.jsx dipertahankan di sini
   return (
-    <div className="bg-white pt-14 px-4 rounded-3xl relative">
+    <div className="bg-white pt-14 px-4 relative">
       <motion.button
         className="absolute z-10 top-5 left-5 p-2 rounded-full bg-gradient-to-r from-blue-800 to-sky-950 hover:opacity-90 transition-all"
         onClick={onToggle}
@@ -64,8 +64,8 @@ function Risk({ onToggle }) {
               variants={listItemVariant}
             >
               <img src={risk.imageSrc} alt={risk.title} className="h-24 mb-4" />
-              <h3 className="text-xl font-semibold ">{risk.title}</h3>
-              <p className="text-sm font-medium ">
+              <h3 className="text-[16px] font-semibold ">{risk.title}</h3>
+              <p className="text-[12px] font-medium ">
                 {risk.title === "Denda" ? (
                   <>
                     Apabila dilakukan secara sembarangan, Anda berpotensi

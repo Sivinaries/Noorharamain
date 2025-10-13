@@ -23,25 +23,24 @@ function Running() {
           >
             {/* Duplikasi isi agar loop halus */}
             <div className="flex space-x-8">
-              <h1 className="text-black text-xl font-light">Tanpa Antri</h1>
-              <h1 className="text-black text-xl font-light">Tanpa Masa Tunggu</h1>
-              <h1 className="text-black text-xl font-light">Tanpa Ragu</h1>
-              <h1 className="text-black text-xl font-light">
-                <span className="font-bold">Amazing Journey</span> by{" "}
-                <span className="font-bold">Noor Haramain</span>
+              <h1 className="text-black text-xl font-semibold">Tanpa Antri</h1>
+              <h1 className="text-black text-xl font-semibold">Tanpa Masa Tunggu</h1>
+              <h1 className="text-black text-xl font-semibold">Tanpa Ragu</h1>
+              <h1 className="text-black text-xl font-semibold">Amazing Journey
+                <span className="font-light">by </span> Noor Haramain
               </h1>
             </div>
 
             {/* Copy kedua */}
-            <div className="flex space-x-8 ml-8">
-              <h1 className="text-black text-xl font-light">Tanpa Antri</h1>
-              <h1 className="text-black text-xl font-light">Tanpa Masa Tunggu</h1>
-              <h1 className="text-black text-xl font-light">Tanpa Ragu</h1>
-              <h1 className="text-black text-xl font-light">
-                <span className="font-bold">Amazing Journey</span> by{" "}
-                <span className="font-bold">Noor Haramain</span>
+            <div className="flex space-x-8">
+              <h1 className="text-black text-xl font-semibold">Tanpa Antri</h1>
+              <h1 className="text-black text-xl font-semibold">Tanpa Masa Tunggu</h1>
+              <h1 className="text-black text-xl font-semibold">Tanpa Ragu</h1>
+              <h1 className="text-black text-xl font-semibold">Amazing Journey
+                <span className="font-light"> by </span> Noor Haramain
               </h1>
             </div>
+
           </motion.div>
         </div>
       </div>

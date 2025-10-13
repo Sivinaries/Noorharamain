@@ -129,7 +129,7 @@ function TypeHaji({ onToggle }) {
                       Haji
                       <span className="font-semibold">
                         Furoda <br />
-                        <span className="text-[10px]">(Mujamalah)</span>
+                        <span className="text-[13px]">(Mujamalah)</span>
                       </span>
                     </>
                   ) : (
@@ -141,14 +141,14 @@ function TypeHaji({ onToggle }) {
                     </>
                   )}
                 </h3>
-                <ul className="space-y-3 leading-tight text-[13px] p-[3px] font-light">
+                <ul className="space-y-3 leading-tight text-[10px] p-[3px] font-light">
                   {card.items.map((item, j) => (
                     <li key={j}>
                       {item.includes("(Resident Permit)") ? (
                         <>
                           Hanya Berlaku Bagi Pemegang Iqamah
                           <br />
-                          <span className="text-[10px] opacity-80">
+                          <span className="text-[13px] opacity-80">
                             (Resident Permit)
                           </span>
                         </>
