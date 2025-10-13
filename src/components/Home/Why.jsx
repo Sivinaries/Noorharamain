@@ -64,10 +64,10 @@ function Why({ onToggle }) {
       <div className="flex flex-col space-y-6">
         {featuresData.map((feature, index) => (
           <div key={index}>
-            <h3 className="text-[13px] font-semibold text-white">
+            <h3 className="text-[16px] font-semibold text-white">
               {feature.title}
             </h3>
-            <p className="text-[10px] font-light text-white/90 mt-1">
+            <p className="text-[12px] font-light text-white/90 mt-1">
               {index === 0 ? (
                 <>
                   Seluruh proses dilakukan <strong className="font-semibold">secara resmi</strong> melalui aplikasi <strong className="font-semibold">Nusuk</strong> yang terintegrasi dengan otoritas Arab Saudi.
