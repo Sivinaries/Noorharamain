@@ -17,7 +17,7 @@ const containerVariant = {
 };
 
 function Package() {
-  return (
+    return (
         <motion.div
             className="w-full md:max-w-sm mx-auto h-fit my-2 bg-white"
             variants={containerVariant}
@@ -35,6 +35,7 @@ function Package() {
                     transition={{ duration: 1.2, ease: "easeOut" }}
                     viewport={{ once: true }}
                 />
+                
                 <motion.img
                     src={Img2}
                     alt="Kenapa Harus Haji Dakhili"
@@ -47,7 +48,7 @@ function Package() {
 
             </div>
         </motion.div>
-  )
+    )
 }
 
 export default Package

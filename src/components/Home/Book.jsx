@@ -39,7 +39,7 @@ function Book() {
           variants={itemVariant}
         >
           <motion.button
-            className="p-1.5 bg-gradient-to-r from-blue-800 to-sky-950 rounded-[15px] shadow-md hover:scale-105 transition-transform duration-300"
+            className="p-1.5 bg-gradient-to-r from-[#00487a] to-[#022335] rounded-[14px] shadow-md hover:scale-105 transition-transform duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
           >

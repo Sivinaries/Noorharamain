@@ -82,7 +82,7 @@ const PlusIcon = () => (
 const ArrowDownIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-2 w-2 text-white"
+    className="h-4 w-4 text-white"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -100,7 +100,7 @@ function Faq() {
   };
 
   return (
-    <div className="relative md:max-w-sm mx-auto w-full">
+    <div className="relative md:max-w-sm mx-auto w-full h-[1200px]">
       {/* --- Header --- */}
       <div className="bg-gradient-to-r from-[#676058] to-[#b9b1a8] px-6 pt-6 pb-10">
         <div className="container mx-auto flex justify-between items-start">
@@ -123,12 +123,12 @@ function Faq() {
       </div>
 
       {/* --- FAQ List --- */}
-      <div className=" -mt-11 rounded-t-2xl relative z-0 px-5 py-16">
+      <div className="-my-20 rounded-t-2xl relative z-0 px-5 py-16">
         <div className="max-w-3xl mx-auto space-y-4">
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className="bg-[#e5e5e5] rounded-lg transition-all duration-300"
+              className="bg-[#e5e5e5] rounded-[14px] transition-all duration-300"
             >
               <button
                 onClick={() => handleToggle(index)}
@@ -143,7 +143,7 @@ function Faq() {
                   }`}
                 >
                   <div className="bg-[#003150] rounded-full p-1">
-                    <ArrowDownIcon />
+                    <ArrowDownIcon className='' />
                   </div>
                 </div>
               </button>

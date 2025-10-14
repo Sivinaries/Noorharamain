@@ -43,16 +43,7 @@ const timelineData = [
 
 function Partnership() {
   return (
-    <div className="relative w-full md:max-w-sm mx-auto bg-gray-50 font-sans py-2">
-      <div className="bg-white px-4 py-6 flex gap-4">
-        <button className="flex-1 py-1 bg-gradient-to-r from-[#D2C5B7FF] to-[#A79582FF] text-white text-[14px] font-semibold rounded-full">
-          Gabung Sekarang
-        </button>
-        <button className="flex-1 py-1 bg-[#E5E5E5FF] text-[14px] rounded-full">
-          Pelajari Selengkapnya
-        </button>
-      </div>
-
+    <div className="relative w-full md:max-w-sm mx-auto bg-white font-sans py-2">
       <div className="px-4 text-center">
         <p className="max-w-sm mx-auto leading-tight font-medium text-[16px]">
           Noor Haramain membuka kesempatan kemitraan tanpa persyaratan khusus
@@ -71,7 +62,7 @@ function Partnership() {
               key={index}
 
               className={`
-              rounded-full px-3 py-2 w-full text-center
+              rounded-[14px] px-3 py-2 w-full text-center
               ${
                 index === 1
                   ? "bg-gradient-to-r from-[#00487a] to-[#022335]"
@@ -126,7 +117,7 @@ function Partnership() {
           {timelineData.map((step, index) => (
             <div
               key={index}
-              className={`rounded-full px-3 py-2 w-full text-center ${step.bgColor}`}
+              className={`rounded-[14px] px-3 py-2 w-full text-center ${step.bgColor}`}
             >
               <h3 className={`font-semibold text-[14px] ${step.textColor}`}>
                 {step.title}
@@ -137,7 +128,7 @@ function Partnership() {
                     Bapak/Ibu berhak menerima{" "}
                     <strong className="font-medium">
                       Fee Marketing sebesar Rp.10.000.000,-
-                    </strong>{" "}
+                    </strong>
                     yang dapat diterima setelah seluruh komponen pembiayaan selesai dibayarkan atau selambat-lambatnya 7 (tujuh) hari
                     setelah ketibaan seluruh jamaah di Tanah Air dan seluruh program dinyatakan selesai.
                   </>
@@ -162,7 +153,7 @@ function Partnership() {
           <span className="text-[#00659EFF] font-bold">Noor Haromain</span>
         </h2>
         <div className="mt-5">
-          <button className="py-1 px-6 bg-gradient-to-r from-[#D2C5B7FF] to-[#A79582FF] text-white text-sm font-semibold rounded-full">
+          <button className="p-1.5 font-bold text-xl px-6 py-2 bg-gradient-to-r from-[#D2C5B7FF] to-[#A79582FF] text-white rounded-[14px] shadow-md">
             Gabung Sekarang
           </button>
         </div>
