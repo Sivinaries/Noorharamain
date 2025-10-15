@@ -42,7 +42,7 @@ function Risk({ onToggle }) {
   return (
     <div className="bg-white pt-14 px-4 relative">
       <motion.button
-        className="absolute z-10 top-5 left-5 p-2 rounded-full bg-gradient-to-r from-blue-800 to-sky-950 hover:opacity-90 transition-all"
+        className="absolute z-10 top-5 left-6 p-2 rounded-full bg-gradient-to-r from-blue-800 to-sky-950 hover:opacity-90 transition-all"
         onClick={onToggle}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}

@@ -56,7 +56,7 @@ function Step({ onToggle }) {
   return (
     <div className="bg-gradient-to-r from-[#00487a] to-[#022335] pt-14 px-6 rounded-3xl relative">
       <motion.button
-        className="absolute z-10 top-5 left-5 p-2 rounded-full bg-gray-400 bg-opacity-50 backdrop-blur-md hover:bg-opacity-70 transition-all"
+        className="absolute z-10 top-5 left-4 p-2 rounded-full bg-gray-400 bg-opacity-50 backdrop-blur-md hover:bg-opacity-70 transition-all"
         onClick={onToggle}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}

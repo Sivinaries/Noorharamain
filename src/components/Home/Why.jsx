@@ -34,11 +34,11 @@ const featuresData = [
 function Why({ onToggle }) {
   return (
     // Kontainer utama konten 'Why', tanpa background halaman
-    <div className="rounded-3xl bg-gradient-to-r from-[#00487a] to-[#022335] border border-white/10 px-6 pt-20 pb-10 relative">
+    <div className="rounded-3xl bg-gradient-to-r from-[#00487a] to-[#022335] border border-white/10 px-6 pt-[88px] pb-10 relative">
       
       {/* Tombol kembali (toggle) */}
       <motion.div
-        className="absolute top-6 left-6"
+        className="absolute top-6 left-4"
         initial={{ opacity: 0, y: 20, scale: 0.9 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         transition={{

@@ -19,7 +19,7 @@ function AboutDakhili({ onToggle }) {
     // Container dibuat transparan dan bisa di-scroll
     <div className="relative w-full h-full bg-transparent overflow-y-auto text-white">
       <motion.button
-        className="absolute z-20 top-5 left-5 p-2 rounded-full bg-gray-400 bg-opacity-50 backdrop-blur-md hover:bg-opacity-70 transition-all"
+        className="absolute z-20 top-5 left-4 p-2 rounded-full bg-gray-400 bg-opacity-50 backdrop-blur-md hover:bg-opacity-70 transition-all"
         onClick={onToggle}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
@@ -29,7 +29,7 @@ function AboutDakhili({ onToggle }) {
 
       {/* Konten detail dengan animasi internal */}
       <motion.div
-        className="relative px-6 pb-10 pt-14"
+        className="relative px-6 pb-10 pt-16"
         variants={contentContainerVariant}
         initial="hidden"
         animate="visible"

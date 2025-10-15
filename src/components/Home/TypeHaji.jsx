@@ -111,7 +111,7 @@ function TypeHaji({ onToggle }) {
           <FaArrowUp className="text-white text-3xl" />
         </motion.button>
       </motion.div>
-      <div className="py-8 px-5 pt-20">
+      <div className="py-8 px-5 pt-[88px]">
         <motion.div
           className="grid grid-cols-2 gap-4"
           variants={gridContainerVariant}
