@@ -27,7 +27,7 @@ const Navbar = () => {
         color: open ? '#ffffff' : '#000000',
       }}
       transition={{ duration: 0.3 }}
-      className="fixed top-4 left-2 right-2 mx-auto shadow-lg rounded-[10px] p-4 flex justify-between items-center z-50 overflow-hidden"
+      className="fixed top-4 left-2 right-2 mx-auto shadow-lg rounded-[10px] p-4 flex justify-between max-w-sm items-center z-50 overflow-hidden"
     >
       {/* Logo muncul hanya jika menu belum terbuka */}
       <AnimatePresence mode="wait">
