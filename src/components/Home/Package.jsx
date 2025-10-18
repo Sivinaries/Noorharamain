@@ -22,8 +22,8 @@ const containerVariant = {
 
 const marqueeVariants = {
     animate: {
-        y: ["100%", "-100%"],
-        transition: { duration: 12, repeat: Infinity, ease: "linear" },
+        y: ["100%", "-80%"],
+        transition: { duration: 20, repeat: Infinity, ease: "linear" },
     },
 };
 
@@ -33,15 +33,15 @@ function RunningText() {
         <div className="absolute inset-0 flex justify-end items-center overflow-hidden z-30">
             {/* Wrapper teks vertikal */}
             <motion.div
-                className="flex flex-col space-y-2 whitespace-nowrap" // rotate-180 biar arah teks dari bawah ke atas
+                className="flex flex-col  space-y-2 whitespace-nowrap" // rotate-180 biar arah teks dari bawah ke atas
                 variants={marqueeVariants}
                 animate="animate"
             >
-                {["PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER"].map(
+                {["PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER", "PALING POPULER"].map(
                     (text, index) => (
                         <h1
                             key={index}
-                            className="text-[16px] font-bold text-[#00487a] drop-shadow-md tracking-widest"
+                            className="text-[14px] rotate-180 font-bold text-[#00487a] drop-shadow-md tracking-widest"
                             style={{ writingMode: "vertical-rl" }} // buat teks tegak ke atas
                         >
                             {text}
