@@ -15,7 +15,7 @@ const fadeVariant = {
 
 function Hero() {
   return (
-    <div className="relative w-full md:max-w-sm mx-auto h-fit pt-24 ">
+    <div id='home' className="relative w-full md:max-w-sm mx-auto h-fit pt-24 ">
       <div className="p-2">
         <Swiper
           modules={[Pagination, Autoplay]}

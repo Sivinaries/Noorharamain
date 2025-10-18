@@ -27,6 +27,7 @@ const textVariant = {
 function Who() {
     return (
         <motion.div
+        id='about'
             className="w-full md:max-w-sm mx-auto h-fit my-2 "
             variants={containerVariant}
             initial="hidden"

@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className="flex gap-2">
                     <div className="p-1 border rounded-[10px]">
-                        <a href="">
+                        <a href="https://www.instagram.com/noorharamainservices">
                             <h1 className="px-2 text-white text-[12px]">Instagram</h1>
                         </a>
                     </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className="p-1 border rounded-[10px]">
-                        <a href="">
+                        <a href="https:/wa.me/6282221115772">
                             <h1 className="px-2 text-white text-[12px]">Whatsapp</h1>
                         </a>
                     </div>

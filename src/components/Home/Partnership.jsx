@@ -63,11 +63,10 @@ function Partnership() {
 
               className={`
               rounded-[14px] px-3 py-2 w-full text-center
-              ${
-                index === 1
+              ${index === 1
                   ? "bg-gradient-to-r from-[#00487a] to-[#022335]"
                   : "bg-[#E5E5E5FF]"
-              }
+                }
             `}
             >
               <h3 className="font-semibold text-[14px]">
@@ -81,9 +80,8 @@ function Partnership() {
                 )}
               </h3>
               <p
-                className={`text-[12px] mt-1 ${
-                  index === 1 ? "text-white/90 font-light" : "text-black"
-                }`}
+                className={`text-[12px] mt-1 ${index === 1 ? "text-white/90 font-light" : "text-black"
+                  }`}
               >
                 {index === 0 ? (
                   <>
@@ -153,9 +151,12 @@ function Partnership() {
           <span className="text-[#00659EFF] font-bold">Noor Haromain</span>
         </h2>
         <div className="mt-5">
-          <button className="p-1.5 font-bold text-xl px-6 py-2 bg-gradient-to-r from-[#D2C5B7FF] to-[#A79582FF] text-white rounded-[14px] shadow-md">
-            Gabung Sekarang
-          </button>
+          <a href="https:/wa.me/6282221115772">
+            <button className="p-1.5 font-bold text-xl px-6 py-2 bg-gradient-to-r from-[#D2C5B7FF] to-[#A79582FF] text-white rounded-[14px] shadow-md">
+              Gabung Sekarang
+            </button>
+          </a>
+
         </div>
       </div>
     </div>
