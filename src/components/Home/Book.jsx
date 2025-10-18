@@ -38,7 +38,7 @@ function Book() {
           className="flex flex-col items-center"
           variants={itemVariant}
         >
-          <a href="https:/wa.me/6282221115772">
+          <a href="https://api.whatsapp.com/send/?phone=6282221115772&text&type=phone_number&app_absent=0">
             <motion.button
               className="p-1.5 bg-gradient-to-r from-[#00487a] to-[#022335] rounded-[14px] shadow-md hover:scale-105 transition-transform duration-300"
               whileHover={{ scale: 1.05 }}

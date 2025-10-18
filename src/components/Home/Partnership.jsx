@@ -147,11 +147,11 @@ function Partnership() {
           menyempurnakan rukun Islam yang ke-5.
         </p>
         <h2 className="text-lg font-medium text-black mt-10">
-          Saatnya Bergabung Program Kemitraan Bersama{" "}
+          Saatnya Bergabung Program Kemitraan Bersama
           <span className="text-[#00659EFF] font-bold">Noor Haromain</span>
         </h2>
         <div className="mt-5">
-          <a href="https:/wa.me/6282221115772">
+          <a href="https://api.whatsapp.com/send/?phone=6282221115772&text&type=phone_number&app_absent=0">
             <button className="p-1.5 font-bold text-xl px-6 py-2 bg-gradient-to-r from-[#D2C5B7FF] to-[#A79582FF] text-white rounded-[14px] shadow-md">
               Gabung Sekarang
             </button>
