@@ -38,13 +38,15 @@ function Book() {
           className="flex flex-col items-center"
           variants={itemVariant}
         >
-          <motion.button
-            className="p-1.5 bg-gradient-to-r from-[#00487a] to-[#022335] rounded-[14px] shadow-md hover:scale-105 transition-transform duration-300"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            <h1 className="text-white font-bold text-2xl px-12 py-2">Book Us Now !</h1>
-          </motion.button>
+          <a href="https:/wa.me/6282221115772">
+            <motion.button
+              className="p-1.5 bg-gradient-to-r from-[#00487a] to-[#022335] rounded-[14px] shadow-md hover:scale-105 transition-transform duration-300"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.97 }}
+            >
+              <h1 className="text-white font-bold text-2xl px-12 py-2">Book Us Now !</h1>
+            </motion.button>
+          </a>
         </motion.div>
 
       </div>

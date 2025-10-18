@@ -5,11 +5,13 @@ const Footer = () => {
     return (
         <footer className="w-full bg-gradient-to-b from-sky-800 to-blue-950 mx-auto py-8 px-8 h-[360px] relative">
             {/* BUTTON */}
+            <a href="#home">
             <div className="absolute -top-10 right-6">
                 <div className="bg-[#A99784] shadow-xl p-2 py-4 rounded-[20px]">
                     <FaArrowUp className="w-10 h-10 text-white" />
                 </div>
             </div>
+            </a>
             {/* MAIN */}
             <div className="space-y-6">
                 <div>
